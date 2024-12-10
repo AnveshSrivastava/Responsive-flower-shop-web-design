@@ -200,7 +200,7 @@ header .fa-bars{
 .items-container{
     background: #eee;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 1.5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -344,6 +344,10 @@ header .fa-bars{
         font-size: 1.5rem;
     }
 
+    .items-container{
+        flex-wrap: wrap;
+    }
+    
     .items-container .icons h3{
         font-size: 2rem;
     }
@@ -358,6 +362,9 @@ header .fa-bars{
         font-size: 50%;
     }
 
+    .items-container{
+        flex-wrap: wrap;
+    }
     .heading{
         font-size: 3rem;
     }
